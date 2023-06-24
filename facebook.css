@@ -1,0 +1,145 @@
+body {
+  background-color: #f0f2f5;
+}
+
+.facebook-section {
+  display: flex;
+ 
+  justify-content: center;
+  gap: 100px;
+
+  align-items: center;
+}
+
+.facebook-section img {
+  height: 70px;
+  margin-bottom: -28px;
+  /* margin-right: -2px; */
+  margin-left: -20px;
+}
+
+.facebook-section p {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+}
+
+/* .facebook-login{
+    background-color: #fff;
+    padding: ;
+} */
+
+input::placeholder{
+    font-size: 17px;
+ 
+    color: #130f0f96;
+}
+
+
+.facebook-login input[type="email"],
+.facebook-login input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  line-height: 42px;
+}
+.facebook-login input[type="submit"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+  background: #1877f2;
+  color: #fff;
+
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 42px;
+  cursor: pointer;
+}
+
+.email {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.password {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.submit {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.form {
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  width: 396px;
+}
+
+.hr-frac {
+  padding: 12px;
+}
+.forgot p {
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: -15px;
+  margin-bottom: -10px;
+  cursor: pointer;
+}
+
+.forgot {
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn .btn-color {
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  background: #42b72a;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.create-page {
+
+    margin-top: 10px;
+    text-align: center;
+}
+.create-page p {
+
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+}
+.bold{
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.bold a{
+    color: #1c1e21;
+}
+
+
